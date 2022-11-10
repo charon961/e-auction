@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7b154; -fx-border-radius: 10px; -fx-border-width: 10; -fx-border-color: green;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admin_login_controller">
+   <children>
+      <Text fill="#9a4848" layoutX="191.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Login">
+         <font>
+            <Font name="Bookman Old Style" size="32.0" />
+         </font>
+      </Text>
+      <Text fill="#832929" layoutX="51.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#8d2b2b" layoutX="55.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextField layoutX="162.0" layoutY="137.0" />
+      <Button layoutX="166.0" layoutY="272.0" mnemonicParsing="false" onAction="#login" prefHeight="37.0" prefWidth="89.0" text="Login" />
+      <PasswordField layoutX="162.0" layoutY="195.0" />
+      <Button layoutX="297.0" layoutY="272.0" mnemonicParsing="false" onAction="#back" prefHeight="37.0" prefWidth="79.0" text="Back" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="376.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/admin_login_logo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1080.0" style="-fx-background-image: Url('../mai_background.jpg'); -fx-background-color: #e7b154;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main_page_controller">
+   <children>
+      <Text fill="#792020" fontSmoothingType="LCD" layoutX="303.0" layoutY="93.0" opacity="0.75" strokeLineCap="BUTT" strokeType="INSIDE" strokeWidth="0.0" text="Welcome to Anime Auction " underline="true">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="39.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="ig1" fitHeight="150.0" fitWidth="200.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/Edward%20Elric%20(Fullmetal%20Alchemist).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ig2" fitHeight="150.0" fitWidth="200.0" layoutX="296.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/Goku%20(Dragon%20Ball).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ig3" fitHeight="122.0" fitWidth="200.0" layoutX="582.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/Himura%20Kenshin%20(Rurouni%20Kenshin).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/L%20(Death%20Note).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="180.0" layoutX="296.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/Monkey%20D.%20Luffy%20(One%20Piece).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="582.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/Naruto%20Uzumaki%20(Naruto).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="880.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/Shinji%20Ikari%20(Evangelion).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ig4" fitHeight="150.0" fitWidth="200.0" layoutX="880.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/Vegeta%20(Dragon%20Ball%20Z).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="51.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="tx2" fill="#f8f8f8" layoutX="304.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goku (Dragon Ball)">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="tx3" fill="WHITE" layoutX="576.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Himura Kenshin (Rurouni Kenshin)">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="tx4" fill="#fffdfd" layoutX="880.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vegeta (Dragon Ball Z)">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="tx1" fill="WHITE" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edward Elric (Fullmetal Alchemist)">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#fffdfd" layoutX="13.0" layoutY="662.0" strokeType="OUTSIDE" strokeWidth="0.0" text="L (Death Note)">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#e8dfdf" layoutX="296.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monkey D. Luffy (One Piece)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#f2eaea" layoutX="589.0" layoutY="662.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naruto Uzumaki (Naruto)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#fcfcfc" layoutX="880.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shinji Ikari (Evangelion)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="data1" layoutY="385.0" prefHeight="31.0" prefWidth="142.0" promptText="Enter your amount" />
+      <Text fill="#fffefe" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current value : ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#fcfafa" layoutX="309.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current value: ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="data2" layoutX="304.0" layoutY="385.0" prefHeight="31.0" prefWidth="142.0" promptText="Enter your Amount" />
+      <Text fill="WHITE" layoutX="576.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Value: ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="data3" layoutX="579.0" layoutY="385.0" prefHeight="31.0" prefWidth="142.0" promptText="Enter your Amount" />
+      <Text fill="WHITE" layoutX="863.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current value: ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="data4" layoutX="863.0" layoutY="385.0" prefHeight="31.0" prefWidth="142.0" promptText="Enter your Amount" />
+      <Text fill="WHITE" layoutX="5.0" layoutY="706.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current value: ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField layoutX="7.0" layoutY="722.0" prefHeight="31.0" prefWidth="142.0" promptText="Enter your Amount" />
+      <Text fill="WHITE" layoutX="295.0" layoutY="706.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current value: ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField layoutX="291.0" layoutY="722.0" prefHeight="31.0" prefWidth="142.0" promptText="Enter your Amount" />
+      <Text fill="WHITE" layoutX="589.0" layoutY="706.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current value: ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField layoutX="589.0" layoutY="726.0" prefHeight="31.0" prefWidth="142.0" promptText="Enter your Amount" />
+      <Text fill="WHITE" layoutX="863.0" layoutY="702.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current value: ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField layoutX="863.0" layoutY="726.0" prefHeight="31.0" prefWidth="142.0" promptText="Enter your Amount" />
+      <Button layoutX="111.0" layoutY="349.0" mnemonicParsing="false" onAction="#button1" prefHeight="24.0" prefWidth="62.0" text="check" />
+      <Button layoutX="871.0" layoutY="46.0" mnemonicParsing="false" onAction="#refresh" prefHeight="39.0" prefWidth="142.0" text="Current Status" />
+      <Button layoutX="158.0" layoutY="385.0" mnemonicParsing="false" onAction="#submit1" prefHeight="31.0" prefWidth="69.0" text="submit" />
+      <Button layoutX="418.0" layoutY="349.0" mnemonicParsing="false" onAction="#button2" text="check" />
+      <Button layoutX="464.0" layoutY="385.0" mnemonicParsing="false" onAction="#submit2" text="submit" />
+      <Button layoutX="699.0" layoutY="349.0" mnemonicParsing="false" onAction="#button3" text="check" />
+      <Button layoutX="739.0" layoutY="385.0" mnemonicParsing="false" onAction="#submit3" text="submit" />
+      <Button layoutX="992.0" layoutY="349.0" mnemonicParsing="false" onAction="#button4" text="check" />
+      <Button layoutX="1017.0" layoutY="385.0" mnemonicParsing="false" onAction="#submit4" text="submit" />
+      <Button layoutX="126.0" layoutY="680.0" mnemonicParsing="false" text="check" />
+      <Button layoutX="159.0" layoutY="722.0" mnemonicParsing="false" text="submit" />
+      <Button layoutX="413.0" layoutY="683.0" mnemonicParsing="false" text="check" />
+      <Button layoutX="439.0" layoutY="722.0" mnemonicParsing="false" text="submit" />
+      <Button layoutX="699.0" layoutY="683.0" mnemonicParsing="false" text="check" />
+      <Button layoutX="739.0" layoutY="722.0" mnemonicParsing="false" text="submit" />
+      <Button layoutX="992.0" layoutY="680.0" mnemonicParsing="false" text="check" />
+      <Button layoutX="1017.0" layoutY="722.0" mnemonicParsing="false" text="submit" />
+      <Button layoutX="46.0" layoutY="50.0" mnemonicParsing="false" onAction="#Home" prefHeight="39.0" prefWidth="109.0" text="Home" />
+   </children>
+</AnchorPane>

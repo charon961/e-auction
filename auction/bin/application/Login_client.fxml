@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: orange; -fx-border-width: 10px; -fx-border-color: green; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Login_controller">
+   <children>
+      <Text fill="#bc5353" layoutX="102.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Bookman Old Style" size="17.0" />
+         </font></Text>
+      <Text fill="#ae3838" layoutX="190.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Member Login">
+         <font>
+            <Font name="Bookman Old Style" size="26.0" />
+         </font></Text>
+      <TextField fx:id="email" layoutX="187.0" layoutY="119.0" promptText="Enter your email" />
+      <PasswordField fx:id="password" layoutX="186.0" layoutY="184.0" promptText="Enter password" />
+      <Button layoutX="204.0" layoutY="290.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Text fill="#c65555" layoutX="102.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+         <font>
+            <Font size="17.0" />
+         </font></Text>
+      <CheckBox layoutX="204.0" layoutY="249.0" mnemonicParsing="false" text="Remember me" textFill="#a44b4b">
+         <font>
+            <Font name="Bookman Old Style" size="17.0" />
+         </font></CheckBox>
+      <Button layoutX="290.0" layoutY="290.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/itachi_logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

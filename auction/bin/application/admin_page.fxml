@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7b154; -fx-border-color: green; -fx-border-width: 10px; -fx-border-radius: 5px;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admin_controller">
+   <children>
+      <Text fill="#8a4040" layoutX="175.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Charon96">
+         <font>
+            <Font name="Bookman Old Style" size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="385.0" layoutY="126.0" mnemonicParsing="false" onAction="#update" text="Update" />
+      <Button layoutX="230.0" layoutY="184.0" mnemonicParsing="false" onAction="#dchar" text="Click me!" />
+      <Button layoutX="388.0" layoutY="248.0" mnemonicParsing="false" onAction="#deleteclient" text="Delete" />
+      <Text fill="#754646" layoutX="14.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update price">
+         <font>
+            <Font name="Bookman Old Style" size="21.0" />
+         </font></Text>
+      <Text fill="#974f4f" layoutX="14.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete character">
+         <font>
+            <Font name="Bookman Old Style" size="21.0" />
+         </font></Text>
+      <Text fill="#9e4040" layoutX="15.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete client">
+         <font>
+            <Font name="Bookman Old Style" size="21.0" />
+         </font></Text>
+      <Button layoutX="500.0" layoutY="24.0" mnemonicParsing="false" onAction="#exit" prefHeight="31.0" prefWidth="63.0" text="Exit" />
+      <TextField fx:id="tx1" layoutX="235.0" layoutY="126.0" prefHeight="31.0" prefWidth="63.0" promptText="ID" />
+      <TextField fx:id="tx3" layoutX="230.0" layoutY="248.0" prefHeight="31.0" prefWidth="127.0" promptText="Enter Email" />
+      <TextField fx:id="tx2" layoutX="308.0" layoutY="126.0" prefHeight="31.0" prefWidth="69.0" promptText="Price" />
+   </children>
+</AnchorPane>
